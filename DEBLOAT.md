@@ -2,6 +2,8 @@
 
 This guide shows how to trim the pre-installed apps on a Google TV / Android TV **safely and reversibly**, either by asking [Claude Code](https://claude.com/claude-code) to do it or by running the commands yourself.
 
+**Works on:** Google TV and Android TV only. **Doesn't work on:** LG webOS, Samsung Tizen, Roku, VIDAA, Vizio or Apple TV, which aren't Android and have no ADB. Fire TV supports ADB, but its packages aren't covered here. See the [compatibility table](README.md#which-tvs-does-this-work-on).
+
 It was done on a **Sansui 4K Google TV** (`SANSUI_4K_RATV3`, Expressluck NGamer, Android 14, Realtek chipset, 1.7 GB RAM). Package names differ between brands, so **always check what's on your own TV first**.
 
 ## The rules that keep it safe

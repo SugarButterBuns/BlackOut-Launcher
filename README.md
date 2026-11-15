@@ -13,9 +13,26 @@ A tiny, pure-black home screen for Google TV / Android TV, made for OLED TVs, pl
 
 The app's internal package ID is `dev.blackhome.launcher` (from its first name, Black Home); you'll see it in the ADB commands below.
 
-Tested on a **Sansui 4K Google TV** (`SANSUI_4K_RATV3`, Expressluck NGamer, Android 14, Realtek chipset). It should work on other Google TV / Android TV 9+ devices, but hasn't been tested on them.
-
 > **Want to debloat your TV too?** See **[DEBLOAT.md](DEBLOAT.md)** for the step-by-step guide, the exact package list and how to undo everything.
+
+---
+
+## Which TVs does this work on?
+
+Both the launcher and the debloat guide need **Android**, with ADB debugging available in Developer options.
+
+| TV / device | Launcher | Debloat guide |
+|---|---|---|
+| **Google TV** (Android 9+), e.g. Sony Bravia, TCL, Hisense, Sansui and Philips Google TV models, Chromecast with Google TV, Google TV Streamer | ✅ **Works.** Tested on a Sansui 4K Google TV (Android 14). Other models should work but are untested. | ✅ Works. Package names differ by brand, so check your own list first. |
+| **Android TV** with the older home screen (not the Google TV interface), e.g. Nvidia Shield, older Sony/Philips/Sharp sets, Xiaomi Mi Box | ⚠️ **Not yet.** It installs, but the Home button still goes to the old home screen, because the redirect only watches Google TV's launcher. | ✅ Works. Same rules; package names differ. |
+| **Amazon Fire TV** (Fire OS) | ❌ No. Fire OS blocks replacing its home screen. | ⚠️ Partly. ADB works, but the packages are Amazon's and aren't covered by this guide. |
+| **LG** (webOS) | ❌ No | ❌ No |
+| **Samsung** (Tizen) | ❌ No | ❌ No |
+| **Roku TV** | ❌ No | ❌ No |
+| **Hisense / Toshiba VIDAA**, **Vizio SmartCast**, **Panasonic** (My Home Screen) | ❌ No | ❌ No |
+| **Apple TV** (tvOS) | ❌ No | ❌ No |
+
+**Don't know which you have?** If your TV has the **Google Play Store**, it's Google TV or Android TV. On Google TV, the home screen has tabs along the top ("For you", "Movies", "Shows" and so on), and Settings says "Google TV".
 
 ---
 
