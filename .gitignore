@@ -1,0 +1,15 @@
+# Build output
+launcher/out/
+
+# Your private signing key - never commit this
+launcher/signing/
+*.jks
+*.keystore
+
+# Your own screensaver picture
+launcher/res/raw/
+
+# Downloaded tools
+toolchain/
+adb/
+platform-tools/

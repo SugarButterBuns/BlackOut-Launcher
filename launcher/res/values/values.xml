@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlackOut Launcher</string>
+    <string name="service_name">BlackOut Launcher – Home button</string>
+    <string name="screensaver_name">BlackOut Launcher picture</string>
+    <string name="service_description">Sends the remote\'s Home button to BlackOut Launcher instead of the Google TV home screen.</string>
+
+    <style name="Black" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowActivityTransitions">false</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowShowWallpaper">false</item>
+    </style>
+</resources>
