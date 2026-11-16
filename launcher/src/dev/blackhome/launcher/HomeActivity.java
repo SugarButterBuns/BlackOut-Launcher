@@ -55,8 +55,8 @@ public class HomeActivity extends Activity {
 
         // Date and time, top center.
         clock = new TextClock(this);
-        clock.setFormat12Hour("EEE, MMM d   h:mm a");
-        clock.setFormat24Hour("EEE, MMM d   HH:mm");
+        clock.setFormat12Hour("EEE, MMM d, yyyy   h:mm a");
+        clock.setFormat24Hour("EEE, MMM d, yyyy   HH:mm");
         clock.setTextColor(0xFFD9D9D9);
         clock.setTypeface(Typeface.create("sans-serif-light", Typeface.NORMAL));
         clock.setTextSize(TypedValue.COMPLEX_UNIT_PX, w * 0.0185f);
